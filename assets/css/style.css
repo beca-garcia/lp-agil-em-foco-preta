@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --bgc-body: #000000;
+    --color-body: #ffffff;
+    --destaque: #fb5607;
+    --button-bgc: #fb5607;
+    --button-border: #fb5607;
+    --button-color: #ffffff;
+    --linear-gradient: linear-gradient(315deg, #fb5607 34%, #fd8249 94%);
+}
+
+html {
+    font-size: 62.5%; /* 10px */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bgc-body);
+    color: var(--color-body);
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    /* border: 1px solid orangered; */
+}
+
+.espaco-interno {
+    padding: 2rem 0;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+strong {
+    color: var(--destaque);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(315deg, #fb5607 34%, #fd8249 94%);
+    border: 1px solid var(--button-border);
+    color: var(--button-color);
+    padding: 1.5rem 0;  
+    font-size: 1.2rem;      
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.button:hover {
+    background-image: linear-gradient(315deg, #fd8249  0%, #fb5607 94%);
+}
+
+/* Cabeçalho */
+header img {
+    width: 12%;
+}
+
+.container-flex h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.container-flex-coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+/* Seção 01 */
+.bg-banner {
+    background-image: url("../images/banner/mulher_animada.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 150%;
+}
+
+.arrow {
+    font-size: 2.5rem;
+    background-image: linear-gradient(315deg, #fd8249  0%, #fb5607 94%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
