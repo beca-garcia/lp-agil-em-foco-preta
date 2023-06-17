@@ -33,6 +33,7 @@ body {
     color: var(--color-body);
 }
 
+/* Configurações Gerais */
 .container {
     width: 95%;
     margin: 0 auto;
@@ -47,6 +48,20 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.container-flex-coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.container-flex-lista {
+    display: grid;
+    place-content: center;
+    gap: 3rem;    
+    padding-block: 2rem;
 }
 
 section {
@@ -101,20 +116,6 @@ header img {
 .container-flex h2 {
     font-size: 1.5rem;
     text-transform: uppercase;
-}
-
-.container-flex-coluna {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 3rem;
-}
-
-.container-flex-lista {
-    display: grid;
-    place-content: center;
-    gap: 3rem;    
-    padding-block: 2rem;
 }
 
 /* Seção 01 */

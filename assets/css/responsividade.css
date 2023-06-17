@@ -1,0 +1,133 @@
+@media (min-width: 768px) {
+    /* Configurações Gerais */
+    .container {
+        width: 65%;        
+    }
+
+    .container-flex {
+        display: flex;
+        justify-content: space-between;        
+    }
+    
+    .container-flex-coluna {       
+        align-items: center;
+        gap: 3rem;
+    }
+    
+    .container-flex-lista {
+        display: grid;
+        place-content: center;
+        gap: 3rem;    
+        padding-block: 2rem;
+    }
+      
+    .button {
+        width: 50%;
+        font-size: 1.5rem;      
+    }
+        
+    .subtitle {
+        font-size: 3.5rem;        
+    }
+    
+    p {
+        font-size: 2rem;        
+    }
+    
+    .bgc-destaque {
+        background-color: var(--bgc-body);
+    }
+    
+    /* Seção 01 */
+    .title {
+        font-size: 4.5rem;
+        line-height: 150%;
+    }  
+    
+    /* Lista - Conteúdo Programático */
+    .container-flex-lista {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5rem;    
+    }
+
+    .lista-principal {
+        gap: 2rem;
+    }
+    
+    .item-principal {
+        font-size: 2rem;
+    }
+    
+    .item-principal i {
+        font-size: 2rem;
+    }
+    
+    .item-secundario {
+        font-size: 1.6rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .item-secundario i {
+        font-size: 1.8rem;    
+    }
+    
+    /* Investimento */
+   
+    
+    .card .valor-curso {
+        font-size: 4.5rem;
+    }
+    
+    .card .forma-de-pagamento {
+        font-size: 1.2rem;
+    }
+    
+    .card-data .data {
+        font-size: 5rem;
+    }
+    
+    .card-data .data i {
+        font-size: 1.2rem;
+        margin-inline: 0.5rem;        
+    }   
+    
+    .data-formulario {
+        font-size: 1.5rem;
+    }   
+    
+    /* Mentora */
+    .card-mentora img {
+        width: 50%;
+    }
+    
+    .card-mentora h3 {
+        font-size: 2.5rem;
+    }
+    
+    .container-certificacoes h3 {
+        font-size: 2.2rem;
+    }
+    
+    .container-certificacoes div h4 {
+        font-size: 1.6rem;
+    }
+    
+    .container-certificacoes div p {
+        font-size: 1.2rem;
+    }
+    
+    /* Dúvidas */
+    .duvidas-obsercacao {
+        font-size: 1.6rem;
+    }
+    
+    /* Rodapé */
+    footer .redes-sociais a i {
+        font-size: 3.5rem;
+    }
+    
+    footer p {
+        font-size: 1.3rem;
+    }
+}
