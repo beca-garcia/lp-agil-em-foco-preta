@@ -131,3 +131,26 @@
         font-size: 1.3rem;
     }
 }
+
+@media (min-width: 1024px) {
+    header img {
+        width: 5%;
+    }
+
+    .container-flex h2 {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+
+    /* Mentora */
+    .card-mentora img {
+        width: 30%;
+    }
+
+    /* Rodapé */
+    footer .logo {
+        width: 8%;
+    }
+     
+
+}
