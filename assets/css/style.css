@@ -16,7 +16,9 @@
     --button-bgc: #fb5607;
     --button-border: #fb5607;
     --button-color: #ffffff;
-    --linear-gradient: linear-gradient(315deg, #fb5607 34%, #fd8249 94%);
+    --gradient: linear-gradient(45deg, #fb5607 34%, #fd8249 94%);
+    --icone-gradient: linear-gradient(45deg, #fb5607 34%, #f3e249 94%);
+    --gradient-hover: linear-gradient(45deg, #fd8249  0%, #fb5607);
 }
 
 html {
@@ -58,10 +60,10 @@ strong {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(315deg, #fb5607 34%, #fd8249 94%);
+    background-image: var(--gradient);
     border: 1px solid var(--button-border);
     color: var(--button-color);
-    padding: 1.5rem 0;  
+    padding: 2rem 0;  
     font-size: 1.2rem;      
     font-weight: 700;
     text-transform: uppercase;
@@ -70,7 +72,7 @@ strong {
 }
 
 .button:hover {
-    background-image: linear-gradient(315deg, #fd8249  0%, #fb5607 94%);
+    background-image: var(--gradient-hover);
 }
 
 .subtitle {
@@ -108,11 +110,9 @@ header img {
 }
 
 .container-flex-lista {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
+    display: grid;
+    place-content: center;
+    gap: 3rem;    
     padding-block: 2rem;
 }
 
@@ -131,7 +131,7 @@ header img {
 
 .arrow {
     font-size: 2.5rem;
-    background-image: linear-gradient(315deg, #fd8249  0%, #fb5607 94%);
+    background-image: var(--gradient);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -153,7 +153,11 @@ header img {
 
 .item-principal i {
     font-size: 1.8rem;
-    color: var(--icone-color);
+    /* color: var(--icone-color); */
+    background-image: var(--icone-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     margin-right: 0.5rem;
 }
 
@@ -172,6 +176,10 @@ header img {
 
 .item-secundario i {
     font-size: 1.6rem;    
-    color: var(--icone-color);
+    /* color: var(--icone-color); */
+    background-image: var(--icone-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     margin-right: 0.5rem;
 }
