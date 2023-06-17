@@ -220,6 +220,7 @@ header img {
     border: 1px solid var(--button-border);
     border-radius: 0.5rem;
     padding: 2rem;
+    text-align: center;
 }
 
 .card-data .data {
@@ -242,6 +243,22 @@ header img {
 
 .data-formulario {
     font-size: 1rem;
+}
+
+.card-data .online {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem; 
+}
+
+.card-data .online i {
+    font-size: 1.8rem;    
+}
+
+.card-data .online p {
+    color: var(--destaque);
+    font-weight: 700;
 }
 
 /* Mentora */
