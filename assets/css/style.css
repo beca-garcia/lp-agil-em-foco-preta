@@ -10,6 +10,8 @@
     --bgc-body: #000000;
     --color-body: #ffffff;
     --destaque: #fb5607;
+    --destaque-bgc: #fb5407;
+    --subtitle-color: #fb5607;
     --button-bgc: #fb5607;
     --button-border: #fb5607;
     --button-color: #ffffff;
@@ -43,6 +45,10 @@ body {
     align-items: center;
 }
 
+section {
+    padding: 2rem 0;
+}
+
 strong {
     color: var(--destaque);
 }
@@ -64,6 +70,23 @@ strong {
 
 .button:hover {
     background-image: linear-gradient(315deg, #fd8249  0%, #fb5607 94%);
+}
+
+.subtitle {
+    font-size: 2.5rem;
+    color: var(--subtitle-color);
+    text-align: center;
+    line-height: 150%;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 200%;
+    text-align: center;
+}
+
+.bgc-destaque {
+    background-color: var(--destaque-bgc);
 }
 
 /* Cabeçalho */
@@ -94,7 +117,6 @@ header img {
 .title {
     font-size: 3rem;
     text-align: center;
-    line-height: 150%;
 }
 
 .arrow {
