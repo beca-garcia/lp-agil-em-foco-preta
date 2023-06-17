@@ -11,6 +11,7 @@
     --color-body: #ffffff;
     --destaque: #fb5607;
     --destaque-bgc: #fb5407;
+    --icone-color: #fb5607;
     --subtitle-color: #fb5607;
     --button-bgc: #fb5607;
     --button-border: #fb5607;
@@ -106,6 +107,15 @@ header img {
     gap: 3rem;
 }
 
+.container-flex-lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-block: 2rem;
+}
+
 /* Seção 01 */
 .bg-banner {
     background-image: url("../images/banner/mulher_animada.png");
@@ -128,3 +138,40 @@ header img {
     text-align: center;
 }
 
+/* Lista - Conteúdo Programático */
+.lista-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 0 auto;
+}
+
+.item-principal {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.item-principal i {
+    font-size: 1.8rem;
+    color: var(--icone-color);
+    margin-right: 0.5rem;
+}
+
+.lista-secundaria {
+    margin-left: 2.7rem;
+}
+
+.item-secundario {
+    font-size: 1.3rem;
+    margin-bottom: 0.6rem;
+}
+
+.item-secundario:last-child {
+    margin-bottom: 0;
+}
+
+.item-secundario i {
+    font-size: 1.6rem;    
+    color: var(--icone-color);
+    margin-right: 0.5rem;
+}
