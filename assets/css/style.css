@@ -132,7 +132,7 @@ header img {
 
 .arrow {
     font-size: 2.5rem;
-    background-image: var(--gradient);
+    background-image: var(--icone-gradient);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
