@@ -191,7 +191,7 @@ header img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
     padding: 2rem;
     border: 1px solid white;
     border-image: var(--icone-gradient) 1;
@@ -208,8 +208,32 @@ header img {
 .card .valor-curso {
     font-size: 3.5rem;
     font-weight: 700;
+    line-height: 150%;
 }
 
 .card .forma-de-pagamento {
-    font-size: 0.8rem;
+    font-size: 1rem;
+}
+
+/* Datas Disponíveis */
+.card-data .data {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.card-data .data i {
+    font-size: 1rem;
+    background-image: var(--icone-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.card-data .horario {
+    font-weight: 700;
+}
+
+.data-formulario {
+    font-size: 1rem;
 }
