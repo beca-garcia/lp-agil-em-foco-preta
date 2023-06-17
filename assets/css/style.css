@@ -193,8 +193,8 @@ header img {
     align-items: center;
     gap: 3rem;
     padding: 2rem;
-    border: 1px solid white;
-    border-image: var(--icone-gradient) 1;
+    border: 1px solid var(--button-border);
+    border-radius: 0.5rem;
 }
 
 .card i {
@@ -216,6 +216,12 @@ header img {
 }
 
 /* Datas Disponíveis */
+.card-data {
+    border: 1px solid var(--button-border);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
 .card-data .data {
     font-size: 4rem;
     font-weight: 700;
@@ -237,3 +243,51 @@ header img {
 .data-formulario {
     font-size: 1rem;
 }
+
+/* Mentora */
+.card-mentora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border: 1px solid var(--button-border);
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+.card-mentora img {
+    width: 70%;
+}
+
+.card-mentora h3 {
+    font-size: 1.8rem;
+}
+
+.container-certificacoes {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.container-certificacoes div {
+    margin-bottom: 2rem;
+}
+
+.container-certificacoes h3 {
+    font-size: 1.6rem;
+    color: var(--destaque);
+    margin-bottom: 1.5rem;
+}
+
+.container-certificacoes div h4 {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.container-certificacoes div p {
+    font-size: 1rem;
+}
+
+
+
+
